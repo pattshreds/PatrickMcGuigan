@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Patrick McGuigan</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Blinker:wght@200&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+    <style>
+    body {
+      background-image: url('https://wallpaperaccess.com/full/6803.jpg');
+    }
+    nav {
+      display: flex;
+      background-color: darkorange;
+      height: 3em;
+      text-align: center;
+      justify-content: space-around;
+      align-items: center;
+    }
+    .container {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+      border: 2px solid gold;
+      padding: 2em;
+      margin: -1.8em;
+    }
+    footer {
+      height: 4em;
+      background-color: darkorange;
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      font-family: 'Blinker';
+      letter-spacing: 2px;
+      font-weight: bold;
+    }
+    h1 {
+      text-align: center;
+    }
+    .appThumb {
+      height: 15em;
+      margin: .5em;
+    }
+    .appTitle {
+      margin: 0;
+    }
+    .appDesc {
+      margin-top: 0;
+      margin-left: 1em;
+    }
+    .div1Title {
+      font-family: 'Nosifer';
+      color: white;
+      margin: 0;
+      text-shadow: 2px 2px 4px black;
+    }
+    .linkedin {
+      width: 5em;
+    }
+    footer {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+    p {
+      font-family: 'arialnarrow';
+      color: white;
+      letter-spacing: 1.5px;
+      font-size: 10px;
+      padding: 10px;
+    }
+    .header {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 2em auto 2.5em auto;
+    }
+    .logo {
+      width: 30%;
+      opacity: 55%;
+      margin-top: -5em;
+      z-index: -1;
+    }
+    .logoText {
+      font-family: 'Blinker';
+      font-size: 3em;
+      letter-spacing: 2px;
+      color: gold;
+      padding: 0;
+      margin: 0;
+    }
+    .logoText2 {
+      font-family: 'Blinker';
+      font-size: 1em;
+      letter-spacing: 2px;
+      color: gold;
+      padding: 0;
+      margin: 0;
+    }
+
+    </style>
+  </head>
+  <body>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Me</a>
+      <a href="code.html">Project Code</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+    <div class="header">
+      <p class="logoText"> Patrick McGuigan </p>
+      <p class="logoText2">FULL-STACK SOFTWARE ENGINEER</p>
+    </div>
+    <h1 class="div1Title"> Projects </h1>
+    <div class="container">
+
+        <a href="music.html">
+          <img src="musicapp.png" class="appThumb" alt="Music App"/>
+        </a>
+
+        <a href="pokesearch.html">
+          <img src="pokedex.png" class="appThumb" alt="Pokedex"/>
+        </a>
+
+        <a href="infinite.html">
+          <img src="infinite.png" class="appThumb" alt="Infinite Savannah"/>
+        </a>
+
+    </div>
+    <footer>
+      <a href="https://www.linkedin.com/in/patrickmcguigan/">
+        <img src="linkedin.png" class="linkedin" alt="Linkedin" />
+      </a>
+      <a href=""> Resume </a>
+      <p> Copyright 2021 Patrick McGuigan - All rights reserved.
+    </footer>
+  </body>
+</html>
